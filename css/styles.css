@@ -426,7 +426,13 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-
+.footer-flex-cont {
+  display: flex;
+  align-items: baseline;
+}
+.footer-cont {
+  margin-right: 70px;
+}
 .footer-logo {
   font-family: "Raleway";
   font-style: normal;
@@ -498,6 +504,31 @@ img {
   text-decoration: none;
 }
 
+.footer-soc-list {
+  display: flex;
+}
+.footer-soc-item {
+  margin-right: 10px;
+}
+.footer-soc-item:last-child {
+  margin-right: 0px;
+}
+.footer-text-add {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--footer-first-color);
+}
+.footer-soc-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
 /*-----------------PAGE2--------------*/
 /*-----------------HERO--------------*/
 /*-----------------HERO FILTERS------*/

@@ -112,15 +112,16 @@ img {
 .current {
   color: var(--accent-color);
 }
-.current::after {
+/* .current::after {
   content: "";
   position: absolute;
   width: 100%;
   height: 4px;
+  bottom: 0px;
   background-color: var(--accent-color);
   border-radius: 2px;
   display: block;
-}
+} */
 .contact {
   font-weight: 500;
   font-size: 14px;
@@ -391,12 +392,13 @@ img {
 .team-soc-link:focus {
   background-color: var(--accent-color);
 }
-.team-soc-link:hover .team-soc-icon {
-  fill: #ffffff;
-}
+.team-soc-link:hover .team-soc-icon,
 .team-soc-link:fosus .team-soc-icon {
   fill: #ffffff;
 }
+/* .team-soc-link:fosus .team-soc-icon {
+  fill: #ffffff;
+} */
 .team-soc-icon {
   fill: #afb1b8;
 }

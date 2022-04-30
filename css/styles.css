@@ -392,13 +392,12 @@ img {
 .team-soc-link:focus {
   background-color: var(--accent-color);
 }
-.team-soc-link:hover .team-soc-icon,
-.team-soc-link:fosus .team-soc-icon {
+.team-soc-link:hover .team-soc-icon {
   fill: #ffffff;
 }
-/* .team-soc-link:fosus .team-soc-icon {
+.team-soc-link:focus .team-soc-icon {
   fill: #ffffff;
-} */
+}
 .team-soc-icon {
   fill: #afb1b8;
 }
